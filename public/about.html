@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio</title>
+
+    <style>
+        .full-screen-image1 {
+            background-image: url("pic/header_after.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .full-screen-image2 {
+            background-image: url("pic/header_after2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        :root {
+            --primary-color: #3490dc;
+            --secondary-color: #ffffff;
+        }
+
+        .custom-font {
+            font-family: "Arial Black", sans-serif;
+            font-size: 24px;
+            transform: scaleY(1.3);
+            transform-origin: center;
+        }
+
+        .custom-font2 {
+            font-family: Century, sans-serif;
+            font-size: 14px;
+        }
+
+        .custom-font3 {
+            font-family: "Arial Black", sans-serif;
+            font-size: 38px;
+        }
+
+        .custom-font4 {
+            font-size: 12px;
+        }
+
+        .screen_2_3 {
+            height: 66vh;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        .fade-in-text {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .custom-font5 {
+            font-family: "Yu Gothic", sans-serif;
+        }
+
+        .custom-font6 {
+            font-family: "Arial Black", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="pt-16">
+        <header class="bg-white text-black shadow-lg py-4 fixed w-full top-0 left-0 z-10">
+          <nav class="container mx-auto flex items-center justify-between">
+            <div class="text-orange-300 custom-font text-xl mx-8 md:ml-16">Portfolio</div>
+            <ul class="flex space-x-5 ml-10"> <!-- Add the ml-5 class here -->
+              <li><a href="index.html" class="text-black custom-font2 hover:text-yellow-300">Home</a></li>
+              <li><a href="works.html" class="text-black custom-font2 hover:text-yellow-300">Works</a></li>
+              <li><a href="about.html" class="text-black custom-font2 hover:text-yellow-300">About</a></li>
+              <li><a href="blog.html" class="text-black custom-font2 hover:text-yellow-300">Blog</a></li>
+              <li><a href="contact.html" class="text-black custom-font2 hover:text-yellow-300">Contact</a></li>
+              <li><a href="#" class="text-black hover:text-gray-200"> </a></li>
+            </ul>
+          </nav>
+        </header>
+    </div>
+
+    <div class="full-screen-image2 screen_2_3">
+        <div class="items-center">
+          <div class="pt-36 text-5xl font-semibold text-white shadow-sm fade-in-text text-center">About</div>
+          <div class="pt-4 text-2xl font-semibold text-white shadow-sm fade-in-text text-center">プロフィール等</div>
+        </div>
+    </div>
+
+    <div>
+        <div class="text-center">
+            <p class="pt-24 pb-10 text-orange-300 text-center custom-font5 text-3xl font-semibold">Activity Content</p>
+        </div>
+
+        <div class="pr-8 text-center">
+            <p class="pb-3 text-lg font-semibold text-black">制作ジャンル</p>
+            <p class="pr-5 text-black">・動画編集</p>
+            <p class="pl-7 text-black">・イベント動画制作</p>
+            <p class="pl-3 text-black">・広告動画制作</p>
+            <p class="pl-16 pr-1 text-black">・ビジネスビデオ(勉強中)</p>
+            <p class="pb-3 pt-5 pr-5 text-lg font-semibold text-black">対応範囲</p>
+            <p class="pr-14 text-black">・編集</p>
+            <p class="pl-14 pr-1 text-black">・アニメーション(勉強中)</p>
+            <p class="pb-3 pt-5 pr-5 text-lg font-semibold text-black">納期目安</p>
+            <p class="pl-12 text-black">・編集のみなら最短2日</p>
+        </div>
+
+        <div class="pt-20 pb-12 text-orange-300 text-center custom-font5 text-3xl font-semibold">
+            <p class="">Profile</p>
+        </div>
+
+        <div class="pl-96 flex">
+            <div class="flex-shrink-0">
+              <div class="w-12 h-12 bg-gray-200 rounded-full dark:bg-gray-700 flex items-center justify-center">
+                <!-- 画像を追加する場合は以下のようにimg要素を追加 -->
+                    <img src="pic/work_4_front.jpg" alt="Image" class="w-12 h-12 rounded-full">
+              </div>
+            </div>
+          
+            <div class="ml-4 w-full">
+          
+              <ul class="space-y-3">
+                <li class="w-full h-4 text-black bg-white rounded-md dark:bg-white">編集経験5年以上、フリーランス活動歴約2年</li>
+                <li class="w-full h-4 text-black bg-white rounded-md dark:bg-white">使用ソフトは主にDaVinciResolve(有料版)、power＆photoDirector</p></li>
+                <li class="w-full h-4 text-black bg-white rounded-md dark:bg-white">SNSを通して依頼を受けています。</p></li>
+                <li class="w-full h-4 text-black bg-white rounded-md dark:bg-white">youtube向けのような小規模動画からイベント・広告向けの中規模以上</li>
+                <li class="w-full h-4 text-black bg-white rounded-md dark:bg-white">の動画の作成・編集まで幅広く行っています。お気軽にご相談ください。</li>
+                <li class="w-full h-4 text-black bg-white rounded-md dark:bg-white">現在、ビジネスビデオ＆アニメーションを勉強中...</li>
+            </ul>
+            </div>
+          </div>
+
+
+        <div class="pt-14 text-center text-lg font-semibold">
+            <p class="text-black">使用ソフト＆Webサービス一覧</p>
+        </div>
+
+        <div class="pb-20 pt-3 text-center">
+            <p class="text-black">・DaVinciResolve(有料版)</p>
+            <p class="pr-16 text-black">・PowerDirector</p>
+            <p class="pr-16 text-black">・PhotoDirector</p>
+            <p class="pr-16 text-black">・AudioDirector</p>
+            <p class="pr-20 text-black">・MohoPro13</p>
+            <p class="pr-5 text-black">・motionarray(有料版)</p>
+            <p class="pr-9 text-black">・soundrow(有料版)</p>
+            <p class="pr-28 mr-2 text-black">・YMM4</p>
+            <p class="pr-7 text-black">・その他音声合成ソフト</p>
+            <p class="pl-10 text-black">(複数所持しているため詳細を知りたい方はDMまで)</p>
+        </div>
+    </div>
+
+    <footer class="bg-primary-color text-secondary-color text-center ">
+        <div class="py-6 bg-gray-700">
+            <div class="py-4 font-semibold text-white">お問い合わせ・ご相談はお気軽にご連絡ください。</div>
+            <div class="items-center justify-center">
+                <div class="">
+                  <div class="mt-3 pb-8 text-center">
+                    <a href="contact.html" class="border p-2 px-8 border-orange-300 text-white hover:text-gray-200 hover:bg-orange-300">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div class="p-8 bg-gray-900">
+            <div class="flex items-center justify-center">
+                <div class="relative">
+                  <div class="">
+                    <div class="text-transparent select-none">|</div>
+                    <div class="text-transparent select-none">|</div>
+                    <div><ul class="flex space-x-3 ml-96"> <!-- Add the ml-5 class here -->
+                      <li><a href="index.html" class="text-white custom-font4 hover:text-gray-500">Home</a></li>
+                      <li><a href="works.html" class="text-white custom-font4 hover:text-gray-500">Works</a></li>
+                      <li><a href="about.html" class="text-white custom-font4 hover:text-gray-500">About</a></li>
+                      <li><a href="blog.html" class="text-white custom-font4 hover:text-gray-500">Blog</a></li>
+                      <li><a href="contact.html" class="text-white custom-font4 hover:text-gray-500">Contact</a></li>
+                      <li><a href="index.html" target="_blank" rel="noopener noreferrer">
+                        <div class="ml-3 bg-gray-200 rounded-full dark:bg-gray-700 flex items-center justify-center">
+                          <img src="pic/twitterlogo.jpg" alt="Image" class="w-9 h-9 rounded-full">
+                        </div>
+                      </a></li>
+                    </ul>
+                    </div>
+                    <div class="text-transparent select-none">|</div>
+                    <div class="text-transparent select-none">|</div>
+                  </div>
+                  <span class="h-full w-px bg-white absolute left-1/2 top-0 bottom-0 transform -translate-x-1/2"></span>
+                </div>
+              </div>
+        </div>
+        <div class="py-6 bg-black">
+            <div class="text-center">
+                <p class="text-white custom-font4">&copy; 2023 portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./node_modules/preline/dist/preline.js"></script> 
+</body>
+</html>

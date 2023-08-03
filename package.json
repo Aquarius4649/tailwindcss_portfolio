@@ -1,0 +1,21 @@
+{
+  "name": "tailwind_css_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/style.css -o ./public/style.css",
+    "watch": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.4",
+    "preline": "^1.9.0",
+    "tailwindcss-components": "^1.0.1"
+  }
+}
